@@ -9,11 +9,11 @@ export default props => {
             <div className="Intervalo">
                 <span>
                     <strong>Mínimo</strong>
-                    <input type="number" value={0}/>
+                    <input type="number" value={1}/>
                 </span>
                 <span>
                     <strong>Máximo</strong>
-                    <input type="number" value={0}/>
+                    <input type="number" value={30}/>
                 </span>
             </div>
         </Card>
